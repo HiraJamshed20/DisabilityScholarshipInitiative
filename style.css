@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #000000;
+}
+
+.page-container {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.page-header {
+    background-color: #00274C;
+    padding: 40px;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: #FFCB05;
+    font-size: 2.5rem;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.page-header h2 {
+    color: #eaeaea;
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.page-content {
+    padding: 10px 60px 30px;
+}
+
+.section-block {
+    margin-bottom: 25px;
+}
+
+.section-heading {
+    color: #00274C;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.section-text {
+    color: #000000;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.section-text a {
+    color: #000000;
+}
+
+.highlight-box {
+    background-color: #fae8ba;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: solid 1px black;
+}
+
+.highlight-box h3,
+.info-card h3,
+.contact-section h3,
+.confidentiality-note h3 {
+    color: #000000;
+    font-size: 1.2rem;
+    margin: 0 0 15px 0;
+}
+
+.highlight-box ul,
+.info-card ol,
+.info-card ul,
+.contact-section ul {
+    color: #333;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.highlight-box li,
+.info-card li,
+.contact-section li {
+    margin-bottom: 8px;
+}
+
+.section-divider {
+    border-top: 2px solid #e0e0e0;
+    margin-bottom: 25px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.button-row a {
+    display: inline-block;
+    background-color: #00274C;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-title {
+    color: #FFCB05;
+    font-weight: bold;
+}
+
+.button-subtitle {
+    color: #ffffff;
+}
+
+.button-row .button-link-alt {
+    color: #FFCB05;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.single-button-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.single-button-row a {
+    display: inline-block;
+    background-color: #00274C;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-card {
+    background-color: #D6E7F8;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: solid 1px black;
+}
+
+.info-card-content {
+    margin-bottom: 15px;
+}
+
+.info-card strong {
+    color: #00274C;
+}
+
+.contact-section {
+    margin-bottom: 25px;
+}
+
+.contact-section a,
+.study-link,
+.info-link {
+    color: #00274C;
+    text-decoration: underline;
+}
+
+.contact-section a {
+    color: #00274C;
+}
+
+.confidentiality-note {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px 20px 5px 20px;
+    border: solid 1px black;
+}
+
+.confidentiality-note p {
+    color: #484848;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #00274C;
+    padding: 25px 40px;
+    text-align: center;
+}
+
+.footer p {
+    color: #FFCB05;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .page-container {
+        max-width: 95%;
+    }
+
+    .page-content {
+        padding: 10px 25px 30px;
+    }
+
+    .button-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
